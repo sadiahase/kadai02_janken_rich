@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <!--attach CSS-->
+    <link rel="stylesheet" href="./CSS/janken.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+    </style>
+<link rel="stylesheet" href="./images/background.png"/>
+  </head>
+  <body>
+    <!-- <div class>"background"</div> -->
+    <h1>じゃんけんお伽ばなし</h1>
+    <div class="images">
+        <img id="rock_img" src="Images/AdobeStock_625058114_Preview.jpeg" alt="strong prince defeats dragon" height="300" width="400">
+        <img id="paper_img" src="Images/AdobeStock_137952013_Preview.jpeg" alt="beautiful princess takes prince" height="300" width="400">
+        <img id="scissors_img" src="Images/AdobeStock_278860180_Preview.jpeg" alt="dragon scares princess" height="300" width="400">
+    </div>
+    <!-- count score -->
+        <h2>Wins</h2>
+        <h2 id="wins">0</h2>
+        <h2>Ties:</h2>
+        <h2 id="ties">0</h2>
+        <h2>Losses:</h2>
+        <h2 id="losses">0</h2>
+     </div>
+
+     <div id="result">判定結果はこちら</div>
+  
+
+  <!-- JSがここに来る、重いからかな？ -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="JS/janken.js"></script>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+</body>
+</html>
